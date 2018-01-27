@@ -25,6 +25,8 @@ executable kube-watch
     , http-client-tls
     , http-types 
     , json-stream
+    , kubernetes
     , streaming
     , streaming-bytestring
     , streaming-utils
+    , text
