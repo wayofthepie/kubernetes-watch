@@ -40,16 +40,7 @@ packages:
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
 extra-deps:
-  - streaming-utils-0.1.4.7
-  - aeson-1.1.2.0
-  - attoparsec-0.13.1.0
-  - streaming-0.1.4.5
-  - streaming-bytestring-0.1.4.6
-  - streaming-commons-0.1.17
-  - mmorph-1.0.9
-  - ../haskell-kube/kubernetes
-
-
+  - ../haskell/kubernetes
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
